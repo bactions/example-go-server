@@ -4,6 +4,7 @@ import "testing"
 
 func Test_GetStringByInt(t *testing.T) {
 	GetStringByInt(nil)
+	t.Log("Calling GetStringByInt")
 }
 func Test_GetStructArrayByString(t *testing.T) {
 	GetStructArrayByString(nil)

@@ -4,7 +4,6 @@ import (
 	"time"
 )
 
-// Pet example.
 type Pet struct {
 	ID       int `json:"id"`
 	Category struct {
